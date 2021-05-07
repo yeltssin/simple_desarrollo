@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">examen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_Usuario">usuarios</string>
+    <string name="text_Perfiles">Mapa</string>
+</resources>

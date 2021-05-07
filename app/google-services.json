@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196488821814",
+    "project_id": "examen-5c1f5",
+    "storage_bucket": "examen-5c1f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196488821814:android:b14a8e162b81a43e06ac97",
+        "android_client_info": {
+          "package_name": "com.apps.yeltssin.examen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196488821814-94dokveg10prashojo1kaha80dnnkfua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0qZoBACAQZx0-GCOPvucBI6gNHtByGJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196488821814-94dokveg10prashojo1kaha80dnnkfua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

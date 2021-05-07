@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ListaUsuarios.Usuarios">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/id_TBL_users_perfiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/id_tabitem_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_Usuario" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/id_tabitem_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_Perfiles" />
+        </com.google.android.material.tabs.TabLayout>
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/id_VP_UserPerfiles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</layout>
